@@ -1,0 +1,18 @@
+(defun compute_pos()
+
+(print "Enter Numbers: ")
+(setq count 0)
+(setq sum 0)
+(loop
+(setq num (read))
+(when (= num 0)(return num))
+( if (> num 0)
+(setq count ( + count 1)))
+(if (> num 0)
+(setq sum (+ sum num)))
+)
+(print "Positive count: ")
+(write count)
+(print "Positive sum: ")
+(write sum))
+(compute_pos)
